@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1568436425344.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "345628729",
+    "id" : "598D5E9E",
+    "lastKnownWriteTime" : 1568442324,
+    "last_content_update" : 1568442324740,
+    "path" : "G:/workspace/DemoProject/firstScript.R",
+    "project_path" : "firstScript.R",
+    "properties" : {
+        "cursorPosition" : "142,7",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

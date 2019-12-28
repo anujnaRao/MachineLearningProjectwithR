@@ -1,0 +1,262 @@
+a<-1
+print("Hello World!")
+4%%2
+str<-"Hi"
+is.character(str)
+str<-as.numeric(str)
+dd<-c(1,2,3,4)
+class(dd)
+#vectors
+li<-c("Jan","Feb","Mar")
+print(li)
+class(month)
+class(li)
+a1<- c(1,2,3)
+a2<- c(9,8,7)
+print(a1+a2)
+print(a1-a2)
+print(a1*a2)
+a2<- c(9,8,7,6)
+print(a1+a2)
+mat<-matrix(c('a','b'))
+print(mat)
+mat<-matrix(c(1,2,3,4,5,6,7,8),nrow=2,ncol=2)
+print(mat)
+mat<-matrix(c(1,2,3,4,5,6,7,8),nrow=4,ncol=4)
+print(mat)
+mat<-matrix(c(1,2,3,4,5,6,7,8),nrow=4,ncol=4,byrow=TRUE)
+print(mat)
+mat<-matrix(c("a","b","c","d"),nrow=2,ncol=2)
+print(mat)
+mat[1.3]
+mat<-matrix(c("a","b","c","d"),nrow=2,ncol=2)
+print(mat)
+mat[1.3]
+mat[1,3]
+mat<-matrix(c(1,2,3,4,5,6,7,8),nrow=4,ncol=4,byrow=TRUE)
+mat[1,3]
+mat[4,]
+mat[,4]
+mat<- matrix(1:10,nrow=2)
+print(mat)
+#dimension
+dim(mat)
+ls()
+View(mat)
+lis<- ls('hi',1,2.2)
+lis<- list('hi',1,2.2)
+lis
+length(lis)
+lis[[1]]
+li1<-list(lis,c(1:4),list(2:5),'hi')
+li1
+ar<-array(c(1,2,3,4))
+ar
+ar<-array(c(1,2,3,'hi'))
+ar
+ar<-array(c(1,2,3,4),"hi")
+ar<-array(1,2,3,4,2.2)
+fact<-c("A",'B','B','C',"c")
+fact
+is.factor(fact)
+fact<-as.factor(fact)
+is.factor(fact)
+fact<-c("A",'B','B','C',"c")
+is.factor(fact)
+fact<- factor(fact)
+is.factor(fact)
+class(factor)
+vint <- c(1,2,3)
+vchar<- c('a','b','c')
+vstr<- c("hi","hello","bye")
+vint2<- c(4,5,6)
+vdf <- data.frame(vint,vchar,vstr,vint2)
+class(vdf)
+vdf
+str(vdf)
+#col name
+names(vdf)
+summary(vdf)
+vdf$vdf
+vdf$vint
+if(5< 6 && 2!=1)
+print("Yes")
+if( 2<3)
+{
+print(3)
+}else if( 4<5){
+print(5)
+}
+if( 2>3)
+if( 2>3)
+{
+print(3)
+}else if( 4<5){
+print(5)
+}
+if( 2>3){
+print(3)
+}else if( 4<5){
+print(5)
+}
+sw<- switch(s,"three","seven","nine")
+s<-2
+sw<- switch(s,"three","seven","nine")
+sw
+i<-1
+while(i<5){
+print(paste("i",i))
+i<- i+1
+}
+v<- 1:9
+for(i in v){
+i
+}
+v<- 1:9
+for(i in v){
+print(i)
+}
+print(i)
+str<- "bangalore"
+nchar(str)
+help(package='stats')
+install.packages("stringr")
+install.packages("stringr")
+installed.packages()
+old.packages()
+library("instaR")
+help(package="stringr")
+library(stringr)
+library("stringr')
+library("stringr")
+library("stringr")
+fn<-function(){
+print("Hello world")
+}
+fn()
+fn1<- function(n){
+print(n)
+}
+fn1(5)
+fn2<-function(x,y){
+add<- x+y
+print("Add: ",add)
+}
+fn(5,4)
+fn2<-function(x,y){
+add<- x+y
+print("Add: ",add)
+}
+fn2(5,4)
+fn2<-function(x,y){
+ad<- x+y
+print("Add: ",ad)
+}
+fn2(5,4)
+fn2<-function(x,y){
+ad<- x+y
+print(paste("Add: ",ad))
+}
+fn2(5,4)
+fn3<-function(x){
+if(x% ==0){
+res<- "even"
+}
+else{
+res<-odd
+}
+return(res)
+}
+fn3(5)
+fn4<-function(x){
+if(x% ==0){
+res<- "even"
+}
+else{
+res<-odd
+}
+return(res)
+}
+fn4(5)
+library(ggplot2)
+library(ggplot2)
+ntcars
+install.packages(ggplot2)
+install.packages("ggplot2")
+install.packages("ggplot2")
+library(ggplot2)
+ntcars
+install.packages("ggplot2")
+install.packages("ggplot2")
+library(ggplot2)
+ntcars
+mtcars
+summary(mtcars)
+class(mtcars)
+mtcars$gear
+summary(mtcars$gears)
+table(mtcaars$gear)
+table(mtcars$gear)
+table(mtcars$cyl)
+help("ggplot")
+gplot(mtcars$gear,geom-"Histogram")
+qplot(mtcars$gear,geom-"Histogram")
+qplot(mtcars$gear,geom_"Histogram")
+qplot(mtcars$gear,geom _ "Histogram")
+ggplot(data="mtcars",aes(mtcars$gear))+geom_histogram()
+ggplot(data=mtcars,aes(mtcars$gear))+geom_histogram()
+ggplot(data=mtcars,aes(mtcars$disp))+geom_histogram()
+ggplot(data=mtcars,aes(mtcars$mpg))+geom_histogram()
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram()
+qplot(mtcars$gear,geom _Histogram)
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram() + ggtitle("Histogram for displacement")
+ggplot(data=mtcars,aes(mtcars$disp))+geom_histogram() + geom_histogram(colors("blue"))
+ggplot(data=mtcars,aes(mtcars$disp))+geom_histogram() + geom_histogram(colors("blue"))
+ggplot(data=mtcars,aes(mtcars$disp))+geom_histogram() + geom_histogram(colors = 'blue'))
+ggplot(data=mtcars,aes(mtcars$disp))+geom_histogram() + geom_histogram(colors = 'blue')
+ggplot(data=mtcars,aes(mtcars$disp))+geom_histogram() + geom_histogram(colors = "blue")
+ggplot(data=mtcars,aes(mtcars$mpg))+geom_histogram()+ geom_histogram(fill = "blue")
+ggplot(data=mtcars,aes(mtcars$disp))+geom_histogram() + geom_histogram(colors = "red")
+mtcars$cyl
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram() + ggtitle("Histogram for displacement")
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram() + ggtitle("Histogram")
+ggplot(data=mtcars,aes(mtcars$disp))+geom_histogram(colors = "red")
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram(binwidth = 1,fill="purple",linetype="dashed")
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram(binwidth = 1,fill="purple",linetype="dotted")
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram(binwidth = 1,fill="purple",linetype="dotted",colors ="blue")
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram()+labes(title("x axis"))
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram()+labs(title("x axis"))
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram()+labs(title="x axis")
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram()+labs(title="x axis",x="X",y="Y")
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram() + geom_density()
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram() + aes(x="mng" y="count")
+ggplot(data=mtcars,aes(mtcars$cyl))+geom_histogram() + xlim(c(0,10)) + ylim(c(0,10))
+pie(x,labels)
+x<-c(6,7,8,9)
+labels<-c("a","b","C","d")
+pie(x,labels)
+x<-c(5,10,15,20)
+pie(x,labels)
+pie(x,labels,main="Pie Chart")
+pie(x,labels,main="Pie Chart",radius = 1)
+pie(x,labels,main="Pie Chart",radius = 2)
+pie(x,labels,main="Pie Chart",radius = 1)
+colors<-c("blue","green","pink","purple")
+pie(x,labels,main="Pie Chart",col=colors)
+pie(x,labels,main="Pie Chart",col=colors,radius=1)
+l<-c(10,20,50)
+plot(l)
+plot(l,type=p)
+plot(l,type=p)
+plot(l,type="p")
+plot(l,type="p",main="Line chart")
+plot(l,type="p",main="Line chart")
+l<-c(10,20,50)
+plot(l,type="p",main="Line chart")
+install.packages(dplyr)
+install.packages("dplyr")
+library(dplyr)
+install.packages("dplyr")
+install.packages("dplyr")
+install.packages("dplyr")
+install.packages("dplyr")

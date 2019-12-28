@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1568456044845.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "957557575",
+    "id" : "F1BD9AA3",
+    "lastKnownWriteTime" : 1568460022,
+    "last_content_update" : 1568460022627,
+    "path" : "G:/workspace/DemoProject/csvFile.R",
+    "project_path" : "csvFile.R",
+    "properties" : {
+        "cursorPosition" : "68,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

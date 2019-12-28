@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1568442330437.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "175622290",
+    "id" : "934EE9EC",
+    "lastKnownWriteTime" : 1568443928,
+    "last_content_update" : 1568443928737,
+    "path" : "G:/workspace/DemoProject/conditionStatement.R",
+    "project_path" : "conditionStatement.R",
+    "properties" : {
+        "cursorPosition" : "39,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

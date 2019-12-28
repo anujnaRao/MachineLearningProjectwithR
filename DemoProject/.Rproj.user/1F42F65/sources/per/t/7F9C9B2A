@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1568445676897.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4248114095",
+    "id" : "7F9C9B2A",
+    "lastKnownWriteTime" : 1568452005,
+    "last_content_update" : 1568452005944,
+    "path" : "G:/workspace/DemoProject/functionsInR.R",
+    "project_path" : "functionsInR.R",
+    "properties" : {
+        "cursorPosition" : "41,34",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
